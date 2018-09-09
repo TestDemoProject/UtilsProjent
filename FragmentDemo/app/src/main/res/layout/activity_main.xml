@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.fragmentdemo.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/add_fragment1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:padding="5px"
+            android:text="addFragment1"
+            />
+        <Button
+            android:id="@+id/add_fragment2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:padding="5px"
+            android:text="addFragment2"
+            />
+        <Button
+            android:id="@+id/add_fragment34"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:padding="5px"
+            android:text="addFragmen34"
+            />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/popBackStack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="popBackStack"
+         />
+
+    <Button
+        android:id="@+id/remove_fragment1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="removefragment1"
+         />
+
+    <FrameLayout
+        android:id="@+id/fragments"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+
+
+
+</LinearLayout>
